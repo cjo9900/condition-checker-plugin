@@ -1,0 +1,3 @@
+Jenkins Plugin to allow conditions to be checked before performing an action
+Idea is that this plugin is included by others such as notifiers and reporters, i.e. post-build-task, parameterized build trigger, etc.
+This will allow multiple conditions to be checked without having to implement them all every time they are required, by different plugins.
